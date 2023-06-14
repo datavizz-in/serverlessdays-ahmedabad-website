@@ -1,2 +1,0 @@
-# ServerlessDays-Website
-
