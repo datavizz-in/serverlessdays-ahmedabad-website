@@ -1043,8 +1043,10 @@
                 <h2 style="color: #d2069b;">Why Should You Sponsor Serverless Days Ahmedabad?</h2>
                 <embed src="images/Sponsor/Why should you sponser copy.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="730px" height="600px" />  
             </div>  -->
-            <embed src="images/Sponsor/Ahmedabad Serverlessdays PPT.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="655px" style="transform: scale(0.7);" />
+            <!-- <embed src="images/Sponsor/Ahmedabad Serverlessdays PPT.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="655px" style="transform: scale(0.7);" /> -->
+            <video id="myVideo" src="images/Sponsor/Serverless Days Ahmedabad.mp4" controls style="transform: scale(0.7);" width="100%" height="655px" autoplay></video>
     </section>
+
     <!--End Sponsor Section -->
     <!--End Sponsor Section -->
 
@@ -1351,7 +1353,6 @@
                         </div>
                     </div>
                 </div> -->
-
                 <!-- <div class="speaker-block-four col-lg-2 col-md-6 col-sm-12 wow zoomIn">
                     <div class="inner-box pb-0">
                         <div class="image-box">
@@ -1494,9 +1495,9 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
 
-            </div>
+            <!-- </div>
 
         </div>
     </section> -->
@@ -1768,6 +1769,14 @@
             $(this).addClass('active');
           }
         );
+</script>
+<script>
+    const video = document.getElementById('myVideo');
+  
+    video.addEventListener('ended', () => {
+      video.currentTime = 0; // Reset the playback position to the beginning
+      video.play(); // Start playing the video again
+    });
 </script>
 
 </body>
