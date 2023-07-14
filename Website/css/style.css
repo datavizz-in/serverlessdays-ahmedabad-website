@@ -9405,3 +9405,17 @@ Last Change:    30/1/2018
 	 display: table-cell; 
  }
  .sponsor-section.style-three .spon_title { margin-bottom: 15px; }
+
+ .theme-btn.sold-out {
+    /* Add your styles for the sold-out button here */
+    /* For example, you can change the background color and text color */
+    color: #2b2fda;
+    cursor: not-allowed;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
